@@ -13,3 +13,8 @@ export const homeList = atom({
     { name: '金儿系内查询', code: '003' },
   ],
 });
+
+export const activeKey = atom({
+  key: 'activeKey',
+  default: '1',
+});

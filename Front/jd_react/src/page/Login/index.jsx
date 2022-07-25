@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button, Picker, Form, Input } from 'antd-mobile';
 import { HandPayCircleOutline } from 'antd-mobile-icons';
 import { useNavigate } from 'react-router-dom';
-import './private.less';
+import style from './index.module.less';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -24,12 +24,12 @@ const Login = () => {
 
   return (
     <div>
-      <div className="divTop">
+      <div className={style.divTop}>
         <HandPayCircleOutline fontSize={40} color="#00b578" />
         <span>家人们我害怕系统</span>
       </div>
-      <Form className="form" onFinish={handleSubmit}>
-        <div className="divMiddle">
+      <Form className={style.form} onFinish={handleSubmit}>
+        <div className={style.divMiddle}>
           <Form.Item name="name" label="用户名" rules={[{ required: true }]}>
             <Input placeholder="请输入用户名" />
           </Form.Item>
@@ -63,7 +63,7 @@ const Login = () => {
             />
           </Form.Item>
         </div>
-        <div className="divBottom">
+        <div className={style.divBottom}>
           <Button
             block
             size="large"

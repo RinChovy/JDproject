@@ -24,7 +24,7 @@ const Bottom = () => {
     },
     {
       key: '2',
-      title: '没啥比用',
+      title: '商品列表',
       icon: <UnorderedListOutline />,
       badge: '5',
     },
@@ -43,6 +43,8 @@ const Bottom = () => {
   const hanldeChangeKey = (e) => {
     if (e === '1') {
       navigate('/home');
+    } else if (e === '2') {
+      navigate('/List');
     } else if (e === '4') {
       navigate('/personal');
     }

@@ -75,7 +75,7 @@ const Login = () => {
           </Button>
         </div>
       </Form>
-      <div className="divBottom">
+      <div className={style.divBottom}>
         <p>测试版本0.1</p>
       </div>
     </div>

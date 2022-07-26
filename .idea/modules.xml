@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JDproject.iml" filepath="$PROJECT_DIR$/.idea/JDproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Back/jd-config/jd-config.iml" filepath="$PROJECT_DIR$/Back/jd-config/jd-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Back/jd-service-boot/jd-service-boot.iml" filepath="$PROJECT_DIR$/Back/jd-service-boot/jd-service-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Back/jd-web-boot/jd-web-boot.iml" filepath="$PROJECT_DIR$/Back/jd-web-boot/jd-web-boot.iml" />
+    </modules>
+  </component>
+</project>

@@ -68,7 +68,7 @@ const ListModel = () => {
           <Avatar src={jy} style={{ '--size': '70px' }} />
         </div>
         <div className={style.divTopRight}>
-          <span>宁夏石嘴山一号店</span>
+          <span>宁夏石嘴山二号店</span>
         </div>
       </div>
       <div className={style.divMiddle}>
